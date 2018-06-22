@@ -6,3 +6,7 @@ This sample code calls Watson Visual Recognition from ABAP, calling the server n
 
 You must build the ABAP structure according to the JSON structure that the Watson service returns, check the service API documentation.
 The API documentation also tells you how the POST request must look like. With the Visual Recognition service it's not that trivial, because you need a multipart request to send information about the classifiers as json and the picture that is classified as binary, see attached example (program name "ZWVISUALRBATCH").
+
+SUGGESTED DOCUMENT AND CONFIGURATION IN SAP ENVIRONMENT
+
+https://www.ibm.com/developerworks/community/files/form/anonymous/api/library/25ecde0d-ebfb-47d4-a379-a048a1ccea57/document/d7c30a1b-da62-4066-b4b5-aedc92dfb139/media/Hands-on_Call_Watson_from_SAP_20171009.pdf
