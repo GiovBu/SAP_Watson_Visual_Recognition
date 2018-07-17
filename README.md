@@ -16,6 +16,7 @@ The API documentation also tells you how the POST request must look like. With t
 3) Install Certificate in the SAP System by calling the STRUST transaction.
 
 :warning: **TROUBLESHOOTING**
+
 Calling a Watson service in Bluemix from within an SAP system may fail for various reason. The following describe some symptoms and how to proceed if you are experiencing those.
 
 **- GET or POST method throws exception Communication Error**
@@ -40,6 +41,7 @@ in Bluemix.
 Following this documentation it will also be possible to implement calls to other Watson services from SAP as the Natural Language Classifier (NLC) for text analysis.
 
 :book: **SUGGESTED DOCUMENTATION**
+
 https://www.ibm.com/developerworks/community/files/form/anonymous/api/library/25ecde0d-ebfb-47d4-a379-a048a1ccea57/document/d7c30a1b-da62-4066-b4b5-aedc92dfb139/media/Hands-on_Call_Watson_from_SAP_20171009.pdf
 
 
