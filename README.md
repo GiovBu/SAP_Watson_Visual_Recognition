@@ -18,24 +18,24 @@ The API documentation also tells you how the POST request must look like. With t
 :warning: **TROUBLESHOOTING**
 Calling a Watson service in Bluemix from within an SAP system may fail for various reason. The following describe some symptoms and how to proceed if you are experiencing those.
 
-**- GET or POST method throws exception Communication Error**
+**• GET or POST method throws exception Communication Error**
 
-• Verify that the specified host name is correct.
+- Verify that the specified host name is correct.
 
-• Check proxy server settings.
+- Check proxy server settings.
 
-**- HTTP status is 400 (Bad Request)**
+**• HTTP status is 400 (Bad Request)**
 
-• Check uri path and parameter string. Pay attention to lower and upper cases.
+- Check uri path and parameter string. Pay attention to lower and upper cases.
 
-**- HTTP status is 401 (Unauthorized)**
+**• HTTP status is 401 (Unauthorized)**
 
-• Check that user name and password as specified in your program matches those of your service instance
+- Check that user name and password as specified in your program matches those of your service instance
 in Bluemix.
 
-**- HTTP status is 403 (Forbidden)**
+**• HTTP status is 403 (Forbidden)**
 
-• Check if the SSL certificate for the Bluemix server is installed correctly. Call SMICM transaction.
+- Check if the SSL certificate for the Bluemix server is installed correctly. Call SMICM transaction.
 
 Following this documentation it will also be possible to implement calls to other Watson services from SAP as the Natural Language Classifier (NLC) for text analysis.
 
