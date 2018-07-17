@@ -7,7 +7,7 @@ This sample code calls Watson Visual Recognition from ABAP, calling the server n
 You must build the ABAP structure according to the JSON structure that the Watson service returns, check the service API documentation.
 The API documentation also tells you how the POST request must look like. With the Visual Recognition service it's not that trivial, because you need a multipart request to send information about the classifiers as JSON and the picture that is classified as binary, see attached example (program name "ZWVISUALRBATCH").
 
-##CONFIGURATION STEPS
+**CONFIGURATION STEPS
 
 1) Create in Bluemix the Watson Service. In this case the "Visual Recognition" Service and get the credentials.
 
@@ -15,22 +15,22 @@ The API documentation also tells you how the POST request must look like. With t
 
 3) Install Certificate in the SAP System by calling the STRUST transaction.
 
-##TROUBLESHOOTING
+**TROUBLESHOOTING**
 Calling a Watson service in Bluemix from within an SAP system may fail for various reason. The following
 describe some symptoms and how to proceed if you are experiencing those.
 
-###- GET or POST method throws exception Communication Error
+**- GET or POST method throws exception Communication Error**
 • Verify that the specified host name is correct.
 • Check proxy server settings.
 
-###- HTTP status is 400 (Bad Request)
+**- HTTP status is 400 (Bad Request)**
 • Check uri path and parameter string. Pay attention to lower and upper cases.
 
-###- HTTP status is 401 (Unauthorized)
+**- HTTP status is 401 (Unauthorized)**
 • Check that user name and password as specified in your program matches those of your service instance
 in Bluemix.
 
-###- HTTP status is 403 (Forbidden)
+**- HTTP status is 403 (Forbidden)**
 • Procced as follows to check if the SSL certificate for the Bluemix server is installed correctly. Call SMICM transaction.
 
 
