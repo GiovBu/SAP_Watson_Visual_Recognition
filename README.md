@@ -15,7 +15,7 @@ The API documentation also tells you how the POST request must look like. With t
 
 3) Install Certificate in the SAP System by calling the STRUST transaction.
 
-:+2:**TROUBLESHOOTING**
+:warning: **TROUBLESHOOTING**
 Calling a Watson service in Bluemix from within an SAP system may fail for various reason. The following
 describe some symptoms and how to proceed if you are experiencing those.
 
