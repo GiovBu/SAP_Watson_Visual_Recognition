@@ -32,10 +32,9 @@ in Bluemix.
 **- HTTP status is 403 (Forbidden)**
 • Procced as follows to check if the SSL certificate for the Bluemix server is installed correctly. Call SMICM transaction.
 
-
-SUGGESTED DOCUMENT AND CONFIGURATION STEPS IN SAP ENVIRONMENT
-
-
-
 Following this documentation it will also be possible to implement calls to other Watson services from SAP as the Natural Language Classifier (NLC) for text analysis.
+
+:book: **SUGGESTED DOCUMENTATION**
+https://www.ibm.com/developerworks/community/files/form/anonymous/api/library/25ecde0d-ebfb-47d4-a379-a048a1ccea57/document/d7c30a1b-da62-4066-b4b5-aedc92dfb139/media/Hands-on_Call_Watson_from_SAP_20171009.pdf
+
 
