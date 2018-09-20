@@ -17,7 +17,7 @@ The API documentation also tells you how the POST request must look like. With t
 
 :warning: **TROUBLESHOOTING**
 
-Calling a Watson service in Bluemix from within an SAP system may fail for various reason. The following describe some symptoms and how to proceed if you are experiencing those.
+Calling a Watson service in Bluemix from within a SAP system may fail for various reasons. Following some symptoms and how to proceed if you are experiencing those.
 
 **- GET or POST method throws exception Communication Error**
 
